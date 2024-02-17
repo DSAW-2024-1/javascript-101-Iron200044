@@ -9,7 +9,8 @@ function sum(a, b) {
   }
   //En caso de que el dato no sean numeros me mande este mensaje
   else{
-    return "Los datos de entrada no son adecuados";
+    console.log("Los datos de entrada no son adecuados");
+    return;
   }
 }
 
@@ -28,7 +29,8 @@ function factorial(n) {
   }
   //En caso de que n no sea un numero me mande este mensaje
   else{
-    return "Los datos de entrada no son adecuados";
+    console.log("Los datos de entrada no son adecuados");
+    return;
   }
 }
 
@@ -51,7 +53,8 @@ function findLargest(arr) {
   }
   //Si la variable "datosAdecuados" es false mande este mensaje
   if(!datosAdecuados){
-    return "Los datos de entrada no son adecuados";
+    console.log("Los datos de entrada no son adecuados");
+    return;
   }
   //Si no es false que devuelva el numero mayor del arreglo
   else{
