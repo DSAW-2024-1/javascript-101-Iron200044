@@ -1,0 +1,17 @@
+{
+  "name": "javascript-101",
+  "version": "1.0.0",
+  "description": "En esta tarea, tu objetivo es completar las funciones proporcionadas en el archivo `solutions.js`. Cada función tiene un comentario que indica dónde debes agregar tu código. Una vez que hayas completado las funciones, deberás hacer un push de tus cambios al repositorio.",
+  "main": "solutions.js",
+  "devDependencies": {
+    "eslint": "^8.56.0",
+    "jest": "*"
+  },
+  "scripts": {
+    "lint": "eslint solutions.js",
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC"
+}
+
